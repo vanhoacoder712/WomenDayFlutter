@@ -16,8 +16,8 @@ class _AnimationPageState extends State<AnimationPage> {
   double maxMove = 20;
   bool isBack = true;
   double angle = 0;
-  String line1 = "Love";
-  String line2 = "Chúc em 8/3 xinh đẹp như ảnh trên mạng";
+  String line1 = "Happy WomenDay";
+  String line2 = "Chúc các chị em luôn xinh đẹp";
 
   @override
   Widget build(BuildContext context) {
@@ -45,11 +45,11 @@ class _AnimationPageState extends State<AnimationPage> {
         setState(() {
           selected = !selected;
           if (selected) {
-            line1 = "My Love";
-            line2 = "Chúc em 8/3 vui vẻ và mãi xinh đẹp";
+            line1 = "Happy WomenDay";
+            line2 = "Chúc 1 ngày 8/3 vui vẻ và hạnh phúc";
           } else {
-            line1 = "Love";
-            line2 = "Chúc em 8/3 xinh đẹp như ảnh trên mạng";
+            line1 = "Happy WomenDay";
+            line2 = "Chúc các chị em luôn xinh đẹp";
           }
           angle = (angle + pi) % (2 * pi);
         });
